@@ -46,5 +46,5 @@ This is a subtitle in American English
 MIT license
 (c) Created by Balthazar Rouberol aka brouberol, simplified by robux
 
-Original repository (based on version 0.1.2):
-https://coveralls.io/github/brouberol/srtoffset
+Based on original version 0.1.2:
+https://github.com/brouberol/srtoffset
