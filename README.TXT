@@ -2,13 +2,12 @@
 === SrtOffset
 
 This is an utility for changing offset of all subtitles in *.srt file.
+Requires Python3.
 
 Examples to use:
   srtoffset FilmSubtitles.srt '00:01:31,500'
   srtoffset FilmSubtitles.srt '00:00:03,125' --rewind
 
-
-Apply a time offset to a subtitle .srt file.
 
 For example you have the file "subtitle.srt":
 ```
@@ -24,7 +23,7 @@ This is a subtitle in American English
 00:00:10,000 --> 00:00:14,000
 ```
 
-To move offset of subtitles time on 7,5 sec run this:
+To move subtitles offset time on 7,5 sec run this:
 
 > srtoffset ./subtitle.srt '00:00:05,500' > ./subtitle2.srt
 > srtoffset ./subtitle.srt '00:00:07,000' --rewind > ./subtitle3.srt
